@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		17106AEE2ADFF7AD001127A5 /* Learning_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17106AED2ADFF7AD001127A5 /* Learning_SwiftUIApp.swift */; };
-		17106AF02ADFF7AD001127A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17106AEF2ADFF7AD001127A5 /* ContentView.swift */; };
 		17106AF22ADFF7B0001127A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17106AF12ADFF7B0001127A5 /* Assets.xcassets */; };
 		17106AF52ADFF7B0001127A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17106AF42ADFF7B0001127A5 /* Preview Assets.xcassets */; };
+		17106AFC2ADFF862001127A5 /* Text_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17106AFB2ADFF862001127A5 /* Text_Widget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17106AEA2ADFF7AD001127A5 /* Learning_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learning_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17106AED2ADFF7AD001127A5 /* Learning_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_SwiftUIApp.swift; sourceTree = "<group>"; };
-		17106AEF2ADFF7AD001127A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17106AF12ADFF7B0001127A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17106AF42ADFF7B0001127A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17106AFB2ADFF862001127A5 /* Text_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Widget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				17106AED2ADFF7AD001127A5 /* Learning_SwiftUIApp.swift */,
-				17106AEF2ADFF7AD001127A5 /* ContentView.swift */,
+				17106AFD2ADFF87F001127A5 /* Learning_Components */,
 				17106AF12ADFF7B0001127A5 /* Assets.xcassets */,
 				17106AF32ADFF7B0001127A5 /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				17106AF42ADFF7B0001127A5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17106AFD2ADFF87F001127A5 /* Learning_Components */ = {
+			isa = PBXGroup;
+			children = (
+				17106AFB2ADFF862001127A5 /* Text_Widget.swift */,
+			);
+			path = Learning_Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17106AF02ADFF7AD001127A5 /* ContentView.swift in Sources */,
+				17106AFC2ADFF862001127A5 /* Text_Widget.swift in Sources */,
 				17106AEE2ADFF7AD001127A5 /* Learning_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
