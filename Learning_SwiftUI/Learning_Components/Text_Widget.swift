@@ -19,6 +19,8 @@ struct Text_Widget: View {
             .fontWeight(.bold)
             .fontWidth(.condensed)
             .fontDesign(.monospaced)
+            /// Below modifier can change multiple font properties in one go.
+            //.font(.system(size: 20, weight: .semibold, design: .serif))
             .foregroundColor(Color.indigo)
             .padding(20)    /// All Sides Same Padding
             /// Below can be either `vertical` or `horizontal` sided padding
