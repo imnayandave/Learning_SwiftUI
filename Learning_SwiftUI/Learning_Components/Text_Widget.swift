@@ -12,7 +12,7 @@ struct Text_Widget: View {
     @State private var rotationDegree: Angle = Angle(degrees: -20)
     
     var body: some View {
-        Text("This is Nayan Dave\nI am learning SwiftUI")
+        Text("This is Nayan Dave\nI am learning SwiftUI".uppercased())
             .strikethrough(pattern: .dot)
             .multilineTextAlignment(.center)
             .font(.title2)
@@ -41,7 +41,9 @@ struct Text_Widget: View {
             .onAppear {
                 continuousAnimate()
             }
-        
+            .minimumScaleFactor(0.6)
+            /// Below modifier sets the space between lines { positive means space below and negative means space above lines }
+            //.baselineOffset(10)
             /// - Below modifier adds space between characters and cancel outs ``.fontWeight`` property
             //.kerning(3)
     }
