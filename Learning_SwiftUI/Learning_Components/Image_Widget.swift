@@ -37,10 +37,10 @@ struct Image_Widget: View {
         .onTapGesture {
             isFlipped.toggle()
             withAnimation(.easeInOut(duration: durationAndDelay).delay(isFlipped ? 0 : durationAndDelay)) {
-                backDegree = isFlipped ? 90 : 0
+                backDegree += 90//isFlipped ? 90 : 0
             }
             withAnimation(.easeInOut(duration: durationAndDelay).delay(isFlipped ? durationAndDelay : 0)) {
-                frontDegree = isFlipped ? 0 : -90
+                frontDegree += 90//isFlipped ? 0 : -90
             }
         }
     }

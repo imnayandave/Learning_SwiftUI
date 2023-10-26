@@ -14,6 +14,7 @@
 		17106AFF2AE157DE001127A5 /* Image_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17106AFE2AE157DE001127A5 /* Image_Widget.swift */; };
 		179FC7D32AE3973C00DCB962 /* Helper_SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FC7D22AE3973C00DCB962 /* Helper_SwiftUI.swift */; };
 		17A179F82AE68CFB00271F8D /* Shape_Experiments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A179F72AE68CFB00271F8D /* Shape_Experiments.swift */; };
+		17A179FA2AE932FA00271F8D /* Color_Experiments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A179F92AE932FA00271F8D /* Color_Experiments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		17106AFE2AE157DE001127A5 /* Image_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_Widget.swift; sourceTree = "<group>"; };
 		179FC7D22AE3973C00DCB962 /* Helper_SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper_SwiftUI.swift; sourceTree = "<group>"; };
 		17A179F72AE68CFB00271F8D /* Shape_Experiments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape_Experiments.swift; sourceTree = "<group>"; };
+		17A179F92AE932FA00271F8D /* Color_Experiments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_Experiments.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				17106AFB2ADFF862001127A5 /* Text_Widget.swift */,
 				17106AFE2AE157DE001127A5 /* Image_Widget.swift */,
 				17A179F72AE68CFB00271F8D /* Shape_Experiments.swift */,
+				17A179F92AE932FA00271F8D /* Color_Experiments.swift */,
 			);
 			path = Learning_Components;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			files = (
 				17106AFC2ADFF862001127A5 /* Text_Widget.swift in Sources */,
 				179FC7D32AE3973C00DCB962 /* Helper_SwiftUI.swift in Sources */,
+				17A179FA2AE932FA00271F8D /* Color_Experiments.swift in Sources */,
 				17106AEE2ADFF7AD001127A5 /* Learning_SwiftUIApp.swift in Sources */,
 				17A179F82AE68CFB00271F8D /* Shape_Experiments.swift in Sources */,
 				17106AFF2AE157DE001127A5 /* Image_Widget.swift in Sources */,
